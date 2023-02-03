@@ -1,8 +1,10 @@
 ﻿// Показать двумерный массив размером m×n заполненный вещественными числами
+
 Console.Write("Введите количество строк матрицы: ");
 int m = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов матрицы: ");
 int n = int.Parse(Console.ReadLine());
+
 double[,] matrix = new double[m,n];
 
 void PrintMatrix(double[,] arg)
